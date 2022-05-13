@@ -1,0 +1,60 @@
+.conteiner{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 500px;
+    height: fit-content;
+    border-color: black;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.actions li a{
+    outline: none;
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    background-color: white;
+    color:  palevioletred;
+    font-weight: bold;
+    font-size: large;
+}
+
+.actions li a:hover{
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color:palevioletred;
+    color:  white;
+    border: 2px solid white;
+}
+
+h3{
+    text-transform: uppercase;
+}
+
+p{
+    font-style: italic;
+}
+
+.actions {
+  list-style-type: none; 
+  padding:0; 
+}
+
+.actions li {
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.actions a {
+    text-decoration: none;
+    font-size: 20px;
+}

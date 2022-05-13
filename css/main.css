@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+  }
+ body {
+     background-color: aliceblue;
+ }
+
+ html{
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ label {
+    display: block;
+    color:black;
+    padding: 10px 0px;
+}
+
+input{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    background-color: white;
+}
+
+input:focus {
+      outline: none;
+      background-color: white;
+      border: 2px solid lightskyblue;
+      border-radius: 4px;
+    }
+
+button{
+    outline: none;
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    resize: vertical;
+    background-color: palevioletred;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+button:hover {
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color:white;
+    color: palevioletred; 
+    border: 2px solid palevioletred;
+}
