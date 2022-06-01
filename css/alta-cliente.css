@@ -1,3 +1,4 @@
+
 .alta-conteiner {
     position: absolute;
     margin: auto;
@@ -11,4 +12,13 @@
     border-radius: 4px;
     border-style:initial;
     padding: 18px;  
+}
+
+#home {
+    width: 200px;
+    height: 200px;
+    text-decoration: none;
+    color: palevioletred;
+    background: white;
+    border-radius: 25px;
 }

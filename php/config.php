@@ -14,11 +14,14 @@ function serverConnection(){
   return $conn;
 }
 
-//Tener una opción para volver al home
 //El usuario no debe poder acceder a las opciones de admin
 //Validar formularios desde PHP
 //Configuración de los mensajes desde la BD (estilo)
 //Agrupar conteiner CSS
+
+//Cómo comunicar front y back (validaciones)
+//begin_transaction ... end_transaction
+//roll back commit
 
 //Chequear que el usuario haya iniciado sesion antes de ejecutar otras acciones
 //Es bueno almacenar si el usuario está conectado, el tipo y si cambió la contraseña 

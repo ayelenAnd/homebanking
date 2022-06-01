@@ -20,6 +20,7 @@
     <link rel= "stylesheet" href = "../../css/alta-cliente.css" />
 </head>
 <body>
+    <a class="home" href="./admin.php">Home</a>
     <div class = "alta-conteiner">
         <form method= "POST" action="../../php/administrador/alta-cuenta.php" onsubmit="return validacionAltaCuenta(this)">
             Nombre de la cuenta <input type="text" name="nombreCuenta" required><br>

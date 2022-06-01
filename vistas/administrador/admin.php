@@ -16,7 +16,7 @@
         <ul class="actions">
             <li><a href="./alta-cliente.php">Alta de un cliente</a></li>
             <li><a href="./alta-cuenta.php">Creacion de una cuenta</a></li>
-            <li><a href="">Depositar sueldo</a></li>
+            <li><a href="./depositar-sueldo.php">Depositar sueldo</a></li>
             <li><a href="">Dar de baja una cuenta</a></li>
         </ul>
     </div>

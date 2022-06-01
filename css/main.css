@@ -54,3 +54,19 @@ button:hover {
     color: palevioletred; 
     border: 2px solid palevioletred;
 }
+
+.home {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    border: 2px solid palevioletred;
+    text-decoration: none;
+    color: palevioletred;
+    background: white;
+    border-radius: 25px;
+    font-size: 150%;
+}
+
+.home:hover {
+    color: white;
+    background: palevioletred; 
+}
